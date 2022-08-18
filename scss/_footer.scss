@@ -1,0 +1,97 @@
+footer{
+    background-color: $color-dark;
+    .container{
+        
+        display: flex;
+        gap: 20rem;
+        padding: 5.6rem 0;
+        .item{
+            strong{
+                font-weight: 600;
+                font-size: 2.4rem;
+                line-height: 2.9rem;
+                color: $color-white;
+                
+                
+            }
+            ul{
+                margin-top: 3.6rem;
+                display: flex;
+                flex-direction: column;
+                gap: 2.3rem;
+                li{
+                   
+                    a{
+                        font-weight: 400;
+                        font-size: 2rem;
+                        line-height: 2.4rem;
+                        color: $color-white;
+                        transition: .3s;
+                        &:hover{
+                            color: rgba(255, 255, 255, 0.414);
+                        }
+                    }
+                }
+            }
+        }
+    }
+@include responsivo(1480px){
+    .container{
+        padding: 5.6rem 2.4rem;
+    }
+}
+@include responsivo(991px){
+    .container{
+        padding: 5.5rem 2.4rem;
+        gap: 12rem;
+    }
+}
+@include responsivo(780px){
+    .container{
+        gap: 6rem;
+        max-width: 55.9rem;
+    }
+}
+@include responsivo(600px){
+    .container{
+        gap: 3rem;
+        max-width: 43.9rem;
+        
+        .item{
+            strong{
+                font-size: 2rem;
+            }
+            ul{
+                li{
+                    a{
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@include responsivo(480px){
+   .container{
+    flex-direction: column;
+    padding: 4rem 2.4;
+    gap: 4rem;
+    .item{
+        strong{
+            font-size: 1.8rem;
+            line-height: 2.2rem;
+        }
+        ul{
+            gap: 2rem;
+            margin-top: 2rem;
+            li{
+                a{
+                    font-size: 1.6rem;
+                    line-height: 1.9rem;
+                }
+            }
+        }
+    }
+   }
+}
+}

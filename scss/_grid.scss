@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+    max-width: 125.9rem;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+    @include responsivo(480px){
+        padding: 0 2.4rem;
+        max-width: 32.9rem;
+        
+    }
+}

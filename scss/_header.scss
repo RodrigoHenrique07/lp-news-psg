@@ -1,0 +1,97 @@
+header{
+    height: 6.4rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    
+    .container{
+        @include flex(row, center, space-between );
+        
+        nav{
+            @include flex(row, center, flex-start);
+            ul{
+                display: flex;
+                gap: 4.8rem;
+                font-weight: 500;
+                font-size: 2rem;
+                line-height: 24px;
+                a{
+                    transition: .3s;
+                    &:hover{
+                        color: rgba(255, 255, 255, 0.414);
+                    }
+                }    
+            }
+
+            button{
+                a{
+                    font-weight: 600;
+                    font-size: 1.8rem;
+                    margin-right: 5rem;
+                    transition: .3s; 
+                    &:hover{
+                        color: rgba(255, 255, 255, 0.414);
+                    }   
+                }
+            }
+        }
+        .btn-menu{
+            display: none;
+        }
+    }
+    @include responsivo(991px) {
+        .container{
+            nav{
+                ul{
+                    gap: 3.4rem;
+                    li{
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            nav{
+                button{
+                    
+                    a{
+                        font-size: 1.5rem;
+                        margin-right: 3rem;
+                    }
+                }
+                .btn-primery{
+                    font-size: 1.5rem;
+                    height: 3.6rem;
+                    line-height: 3.6rem;
+                }
+            }
+            
+        }
+    
+    }
+    @include responsivo (780px){
+           .container{
+        a{
+            img{
+                width: 4rem;
+                height: 4rem;
+            }
+        }
+        .btn-menu{
+            display: block;
+        }
+       
+        nav{
+            display: none;
+        }
+       }
+    }
+    @include responsivo(480px){
+        margin-top: 2.4rem;
+        height: 4rem;
+        .container{
+            padding: 0 2.4rem;
+        }
+    }
+}
