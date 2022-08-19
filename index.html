@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Primary Meta Tags -->
+   <!-- Primary Meta Tags -->
     <title>Redesign Landing Page PSG</title>
     <meta name="title" content="Redesign Landing Page PSG">
     <meta name="description" content="NEYMAR JR
-    “Tenho Messi e Cristiano Ronaldo como ídolos. Se der para pegar um pouquinho de cada um, fico muito feliz.”">
+        “Tenho Messi e Cristiano Ronaldo como ídolos. Se der para pegar um pouquinho de cada um, fico muito feliz.”">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://lp-news-psg-desafio-iuri.netlify.app/">
     <meta property="og:title" content="Redesign Landing Page PSG">
     <meta property="og:description" content="NEYMAR JR
-    “Tenho Messi e Cristiano Ronaldo como ídolos. Se der para pegar um pouquinho de cada um, fico muito feliz.”">
+        “Tenho Messi e Cristiano Ronaldo como ídolos. Se der para pegar um pouquinho de cada um, fico muito feliz.”">
     <meta property="og:image" content="lp-news-psg-desafio-iuri.netlify.app/wallpaper.png">
 
     <!-- Twitter -->
@@ -22,7 +22,7 @@
     <meta property="twitter:url" content="https://lp-news-psg-desafio-iuri.netlify.app/">
     <meta property="twitter:title" content="Redesign Landing Page PSG">
     <meta property="twitter:description" content="NEYMAR JR
-    “Tenho Messi e Cristiano Ronaldo como ídolos. Se der para pegar um pouquinho de cada um, fico muito feliz.”">
+        “Tenho Messi e Cristiano Ronaldo como ídolos. Se der para pegar um pouquinho de cada um, fico muito feliz.”">
     <meta property="twitter:image" content="lp-news-psg-desafio-iuri.netlify.app/wallpaper.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -60,18 +60,24 @@
                     REGISTRE-SE
                 </button>
             </nav>
-            <button class="btn-menu">
-                <div class="menu">
-                    <span>Menu</span>
-                    <div class="icon">
-                       
-                            <img src="./img/menu.svg" alt="">
-                       
+            <div id="menu">
+                <button class="btn-menu">
+                    <div class="menu">
+                        <span>Menu</span>
+                        <div class="icon">
+                           
+                                <img src="./img/menu.svg" alt="">
+                           
+                        </div>
                     </div>
-                </div>
-                
-                
-            </button>
+                    
+                    
+                </button>
+                <button class="close hide">
+                    <img src="./img/icon-x.png" alt="">
+                </button>
+
+            </div>
         </div>
         
     </header>
@@ -260,42 +266,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-     <script>
-        var swiper = new Swiper(".slide-noticias", {
-            slidesPerView: 3.5,
-            spaceBetween: 20,
-            pagination: {
-            el: ".slide-noticias-pagination",
-            clickable: true,
-          },
-          breakpoints:{
-            320: {
-                slidesPerView: 1.3,
-                spaceBetween: 12,
-            },
-            600:{
-                slidesPerView: 3.1,
-                spaceBetween: 20,
-            },
-            780:{
-                slidesPerView: 2.3,
-                spaceBetween: 18,
-            },
-            991:{
-                slidesPerView: 2.8,
-                spaceBetween: 15,
-            },
-            1200:{
-                slidesPerView: 3.5,
-                spaceBetween: 20,
-            },
-          }
-        });
-        AOS.init({
-            duration: 1000,
-            once: true
-        });
-      </script> 
+     <script src="./JS/script.js"></script> 
    
     
 </body>
