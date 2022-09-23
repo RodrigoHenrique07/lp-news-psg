@@ -35,53 +35,65 @@
 
 </head>
 <body>
-    <header>
+    <header id="js-header">
         <div class="container">
             <a href="">
                 <img src="./img/psg logo.svg" data-aos="flip-left" alt="logo PSG">
             </a>
-            <nav>
-                <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Resultados</a></li>
-                    <li><a href="">Notícias</a></li>
-                    <li><a href="">Clubes</a></li>
-                    <li><a href="">Clubes</a></li>
+            <nav class="nav-desktop">
+                <ul class="js-nav">
+                    <li><a href="#section-01">Inicio</a></li>
+                    <li><a href="#section-02">Resultados</a></li>
+                    <li><a href="#section-03">Clube</a></li>
+                    <li><a href="#section-04">Notícias</a></li>
+                    
                 </ul>
-            </nav>
-            <nav class="button">
-
-                <button>
-                    <a href="">
-                        ENTRAR
-                    </a>
-                </button>
-                <button class="btn-primery">
-                    REGISTRE-SE
-                </button>
+                <nav class="button">
+    
+                    <button>
+                        <a href="">
+                            ENTRAR
+                        </a>
+                    </button>
+                    <button class="btn-primery">
+                        REGISTRE-SE
+                    </button>
+                </nav>
             </nav>
             <div id="menu">
                 <button class="btn-menu">
                     <div class="menu">
                         <span>Menu</span>
                         <div class="icon">
-                           
                                 <img src="./img/menu.svg" alt="">
-                           
                         </div>
+                    </div>         
+                </button>
+                <!-- <button class="close hide">
+                    <img src="./img/icon-x.png" alt="">
+                </button> -->
+
+            </div>
+            <div  id="js-modal" class="modal">
+                <div class="overley"></div>
+                <div class="box">
+                    <img class="close js-close-modal" src="./img/icon-x.png" alt="">
+                    <div class="nav-modal">
+                        <ul >
+                            <li><a href="#section-01">Inicio</a></li>
+                            <li><a href="#section-02">Resultados</a></li>
+                            <li><a href="#section-03">Clube</a></li>
+                            <li><a href="#section-04">Notícias</a></li>
+                            
+                        </ul>
                     </div>
                     
-                    
-                </button>
-                <button class="close hide">
-                    <img src="./img/icon-x.png" alt="">
-                </button>
-
+                </div>
             </div>
         </div>
         
     </header>
-    <section class="s-hero">
+    <section id="section-01" class="s-hero">
         <div class="container">
             <div class="txt" data-aos="fade-right">
                 <h1>
@@ -99,7 +111,7 @@
             </div>
         </div>
     </section>
-     <section class="s-placar">
+     <section id="section-02" class="s-placar">
         <div class="container">
             <div class="info">
                 <div class="team-home" data-aos="fade-right">
@@ -125,7 +137,7 @@
 
         </div>
     </section>
-    <section class="s-abaut">
+    <section id="section-03" class="s-abaut">
         <div class="container">
 
             <div class="info" data-aos="fade-up">
@@ -149,7 +161,7 @@
             </div>
         </div>
     </section>
-  <section class="s-news">
+  <section id="section-04" class="s-news">
         <div class="container">
             <div class="noticias">
                 <div class="text" data-aos="fade-right">

@@ -1,6 +1,6 @@
 .s-hero{
     width: 100%;
-    // height: 80rem;
+   height: 40vh;
     background: url(../img/wallpaper.png) no-repeat center center;
     padding: 24rem 0;
     background-size: cover;
@@ -68,7 +68,6 @@
     }
 }
 .s-placar{
-    
     .container{
       
         .info   {
@@ -186,6 +185,7 @@
 }
 .s-abaut{
     width: 100%;
+    height: calc(100vh + 4rem);
     background: url(../img/wallapaper2.png) no-repeat center center;
     
     
