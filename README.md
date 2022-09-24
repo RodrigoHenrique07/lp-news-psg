@@ -1,7 +1,7 @@
 
 # lp-news-psg 👨‍🚀
 Projeto Landing Page News PSG - Desafio 28 do codelância.
-<p>Figma: <a>https://www.figma.com/file/IDwaSuwu1OZDXggYL0WrU8/Desafios---Codel%C3%A2ndia-(Copy)</a> </p>
+<p>Figma:</p> <a>https://www.figma.com/file/IDwaSuwu1OZDXggYL0WrU8/Desafios---Codel%C3%A2ndia-(Copy)</a> 
 
 
 # [Tecnologias utilizadas](#tecnologias)
@@ -25,7 +25,7 @@ quanto a criação de animações utilizando a blioteca AOS Animation, além de 
 O projeto foi desenvolvido junto ao Desafio da Condelância, do Iuri Silva, nele foi trabalhado o html semântico, SASS, onde foi criado vários arquivos a fim de dividir
 melhor as pastas e melhorar a organização do projeto e JavaScript
 
-Esse foi o resultado:
+<p>Esse foi o resultado:</p>
 <a>https://lnkd.in/dmRRijsH</a>
 
  
