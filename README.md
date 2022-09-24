@@ -26,7 +26,7 @@ O projeto foi desenvolvido junto ao Desafio da Condelância, do Iuri Silva, nele
 melhor as pastas e melhorar a organização do projeto e JavaScript
 
 Esse foi o resultado:
-https://lnkd.in/dmRRijsH
+<a>https://lnkd.in/dmRRijsH</a>
 
  
  
