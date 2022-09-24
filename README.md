@@ -1,7 +1,7 @@
 
 # lp-news-psg 👨‍🚀
 Projeto Landing Page News PSG - Desafio 28 do codelância.
-<p>Figma: https://www.figma.com/file/IDwaSuwu1OZDXggYL0WrU8/Desafios---Codel%C3%A2ndia-(Copy) </p>
+<p>Figma: <a>https://www.figma.com/file/IDwaSuwu1OZDXggYL0WrU8/Desafios---Codel%C3%A2ndia-(Copy)</a> </p>
 
 
 # [Tecnologias utilizadas](#tecnologias)
